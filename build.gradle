@@ -15,9 +15,9 @@ allprojects {
     }
 }
 
-ext.compileSdkVersion=21
-ext.buildToolsVersion="25.0.1"
+ext.compileSdkVersion=29
+ext.buildToolsVersion="30.0.3"
 ext.versionName=VERSION_NAME
 ext.versionCode=Integer.valueOf(VERSION_CODE)
 ext.minSdkVersion=14
-ext.targetSdkVersion=21
+ext.targetSdkVersion=29
