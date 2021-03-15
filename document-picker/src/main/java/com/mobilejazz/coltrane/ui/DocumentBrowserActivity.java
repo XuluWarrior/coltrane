@@ -70,7 +70,7 @@ public class DocumentBrowserActivity extends Activity implements
     public static final String EXTRA_DOCUMENT_ID = "com.mobilejazz.coltrane.ui.browser.result.document.id";
     public static final String EXTRA_DOCUMENT_NAME = "com.mobilejazz.coltrane.ui.browser.result.document.name";
 
-    public static final String DOCUMENT_URI_PROVIDER_AUTHORITY = BuildConfig.APPLICATION_ID + ".documentUriProvider";
+    public static final String DOCUMENT_URI_PROVIDER_AUTHORITY = BuildConfig.LIBRARY_PACKAGE_NAME + ".documentUriProvider";
 
     public static final String RESULT_ID = DocumentsContract.Document.COLUMN_DOCUMENT_ID;
 
