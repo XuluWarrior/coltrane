@@ -37,11 +37,12 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile project(':library')
-    compile project(':filesystem')
-    compile project(':gdrive')
-    compile project(':dropbox')
-    compile project(':document-picker')
-    compile 'com.squareup.picasso:picasso:2.4.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':library')
+    implementation project(':filesystem')
+    implementation project(':gdrive')
+    implementation project(':dropbox')
+    implementation project(':document-picker')
+    implementation 'com.squareup.picasso:picasso:2.4.0'
+    implementation 'com.jakewharton.timber:timber:2.5.0'
 }
