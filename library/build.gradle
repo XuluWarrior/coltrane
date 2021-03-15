@@ -28,7 +28,7 @@ dependencies {
         mavenCentral()
     }
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:support-v4:21.0.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'com.jakewharton.timber:timber:2.5.0'
 }
 
